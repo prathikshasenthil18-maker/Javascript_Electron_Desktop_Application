@@ -1,0 +1,42 @@
+{
+  "name": "javascript-electron-desktop-application-node20",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scenario 1 Monolithic Electron Desktop Application \u2014 Customer Version 20 (ES2023 / Node.js 20). Alt tools: debtmap, cccc, Dolos, oxlint, OpenGrep, trivy, monocart-coverage-reports, gutcheck, CodeQL, knip, Opengrep, Git-Spark.",
+  "type": "module",
+  "main": "dist/main.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run build && electron .",
+    "start": "electron .",
+    "prebuild": "node scripts/version-check.js",
+    "build": "node scripts/build.js",
+    "test": "node --test test/catalog.test.js test/cart.test.js test/settings.test.js",
+    "oxlint": "oxlint src scripts test || oxlint . || true",
+    "knip": "knip --no-progress || true",
+    "gutcheck": "node tools/gutcheck/run-node.js",
+    "monocart": "node tools/monocart-coverage-reports/run-node.js",
+    "tools:list": "node -e \"console.log(require('./tool-matrix.json').tools.join('\\n'))\"",
+    "tool:debtmap": "bash tools/debtmap/run.sh",
+    "tool:cccc": "bash tools/cccc/run.sh",
+    "tool:Dolos": "bash tools/Dolos/run.sh",
+    "tool:oxlint": "bash tools/oxlint/run.sh",
+    "tool:OpenGrep": "bash tools/OpenGrep/run.sh",
+    "tool:trivy": "bash tools/trivy/run.sh",
+    "tool:monocart-coverage-reports": "bash tools/monocart-coverage-reports/run.sh",
+    "tool:gutcheck": "bash tools/gutcheck/run.sh",
+    "tool:CodeQL": "bash tools/CodeQL/run.sh",
+    "tool:knip": "bash tools/knip/run.sh",
+    "tool:Opengrep": "bash tools/Opengrep_excel/run.sh",
+    "tool:Git-Spark": "bash tools/Git-Spark/run.sh"
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "esbuild": "^0.25.0",
+    "oxlint": "^0.15.0",
+    "knip": "^5.41.0",
+    "monocart-coverage-reports": "^2.12.0"
+  }
+}
