@@ -1,0 +1,13 @@
+{
+  "tool": "knip",
+  "branch": "Version_16",
+  "customer_version": "16",
+  "syntax": "ES2021 / Node.js 16",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}

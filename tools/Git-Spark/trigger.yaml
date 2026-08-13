@@ -1,0 +1,9 @@
+tool: Git-Spark
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_16"
+customer_version: "16"
+project_link: true
+run:
+  command: "bash tools/Git-Spark/run.sh"
+  cwd: "repository_root"
