@@ -1,0 +1,9 @@
+tool: Dolos
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_26"
+customer_version: "26"
+project_link: true
+run:
+  command: "bash tools/Dolos/run.sh"
+  cwd: "repository_root"
