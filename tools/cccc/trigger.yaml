@@ -1,0 +1,9 @@
+tool: cccc
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_22"
+customer_version: "22"
+project_link: true
+run:
+  command: "bash tools/cccc/run.sh"
+  cwd: "repository_root"

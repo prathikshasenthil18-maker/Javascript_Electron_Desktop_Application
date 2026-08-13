@@ -1,0 +1,17 @@
+{
+  "tool": "CodeQL",
+  "folder": "tools/CodeQL",
+  "branch": "Version_22",
+  "customer_version": 22,
+  "syntax_label": "ES2024 / Node.js 22",
+  "npm_script": "tool:CodeQL",
+  "project_targets": [
+    "src/**/*.js",
+    "test/**/*.js",
+    "tool-fixtures/**/*.js",
+    "scripts/**/*.js"
+  ],
+  "linked_project": "Javascript Electron Desktop Application",
+  "run_from": "repository root",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx / JavaScript / Electron Desktop Application"
+}

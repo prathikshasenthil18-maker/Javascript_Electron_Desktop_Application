@@ -1,0 +1,44 @@
+{
+  "language": "JavaScript",
+  "project_type": "Electron Desktop Application",
+  "scenario": "1 - Monolithic",
+  "priority": 3,
+  "branch": "Version_22",
+  "customer_version": "22",
+  "tools": [
+    "debtmap",
+    "cccc",
+    "Dolos",
+    "oxlint",
+    "OpenGrep",
+    "trivy",
+    "monocart-coverage-reports",
+    "gutcheck",
+    "CodeQL",
+    "knip",
+    "Opengrep",
+    "Git-Spark"
+  ],
+  "tool_folders": {
+    "debtmap": "debtmap",
+    "cccc": "cccc",
+    "Dolos": "Dolos",
+    "oxlint": "oxlint",
+    "OpenGrep": "OpenGrep",
+    "trivy": "trivy",
+    "monocart-coverage-reports": "monocart-coverage-reports",
+    "gutcheck": "gutcheck",
+    "CodeQL": "CodeQL",
+    "knip": "knip",
+    "Opengrep": "Opengrep_excel",
+    "Git-Spark": "Git-Spark"
+  },
+  "source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_customer_versions_documented": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ],
+  "notes": "Excel maps tools for CV 18/20/22/24; this branch uses the same 12-tool pack with syntax locked to this Customer Version."
+}

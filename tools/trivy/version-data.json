@@ -1,0 +1,13 @@
+{
+  "tool": "trivy",
+  "branch": "Version_22",
+  "customer_version": "22",
+  "syntax": "ES2024 / Node.js 22",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}
