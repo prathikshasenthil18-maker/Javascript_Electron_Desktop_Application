@@ -1,0 +1,13 @@
+{
+  "tool": "OpenGrep",
+  "branch": "Version_24",
+  "customer_version": "24",
+  "syntax": "ES2025 target / Node.js 24",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}
