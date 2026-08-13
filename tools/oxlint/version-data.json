@@ -1,0 +1,13 @@
+{
+  "tool": "oxlint",
+  "branch": "Version_12",
+  "customer_version": "12",
+  "syntax": "ES2019 / Node.js 12",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}

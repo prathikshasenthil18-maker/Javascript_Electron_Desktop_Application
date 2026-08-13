@@ -1,0 +1,17 @@
+{
+  "tool": "OpenGrep",
+  "folder": "tools/OpenGrep",
+  "branch": "Version_12",
+  "customer_version": 12,
+  "syntax_label": "ES2019 / Node.js 12",
+  "npm_script": "tool:OpenGrep",
+  "project_targets": [
+    "src/**/*.js",
+    "test/**/*.js",
+    "tool-fixtures/**/*.js",
+    "scripts/**/*.js"
+  ],
+  "linked_project": "Javascript Electron Desktop Application",
+  "run_from": "repository root",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx / JavaScript / Electron Desktop Application"
+}

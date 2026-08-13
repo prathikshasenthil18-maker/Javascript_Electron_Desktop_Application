@@ -1,0 +1,9 @@
+tool: gutcheck
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_12"
+customer_version: "12"
+project_link: true
+run:
+  command: "bash tools/gutcheck/run.sh"
+  cwd: "repository_root"
