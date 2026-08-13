@@ -1,0 +1,9 @@
+tool: oxlint
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_14"
+customer_version: "14"
+project_link: true
+run:
+  command: "bash tools/oxlint/run.sh"
+  cwd: "repository_root"
