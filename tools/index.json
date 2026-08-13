@@ -1,0 +1,80 @@
+{
+  "project_type": "Electron Desktop Application",
+  "scenario": "1 - Monolithic",
+  "branch": "Version_18",
+  "customer_version": "18",
+  "tools": [
+    {
+      "tool": "debtmap",
+      "folder": "tools/debtmap",
+      "run": "bash tools/debtmap/run.sh",
+      "npm_script": "tool:debtmap"
+    },
+    {
+      "tool": "cccc",
+      "folder": "tools/cccc",
+      "run": "bash tools/cccc/run.sh",
+      "npm_script": "tool:cccc"
+    },
+    {
+      "tool": "Dolos",
+      "folder": "tools/Dolos",
+      "run": "bash tools/Dolos/run.sh",
+      "npm_script": "tool:Dolos"
+    },
+    {
+      "tool": "oxlint",
+      "folder": "tools/oxlint",
+      "run": "bash tools/oxlint/run.sh",
+      "npm_script": "tool:oxlint"
+    },
+    {
+      "tool": "OpenGrep",
+      "folder": "tools/OpenGrep",
+      "run": "bash tools/OpenGrep/run.sh",
+      "npm_script": "tool:OpenGrep"
+    },
+    {
+      "tool": "trivy",
+      "folder": "tools/trivy",
+      "run": "bash tools/trivy/run.sh",
+      "npm_script": "tool:trivy"
+    },
+    {
+      "tool": "monocart-coverage-reports",
+      "folder": "tools/monocart-coverage-reports",
+      "run": "bash tools/monocart-coverage-reports/run.sh",
+      "npm_script": "tool:monocart-coverage-reports"
+    },
+    {
+      "tool": "gutcheck",
+      "folder": "tools/gutcheck",
+      "run": "bash tools/gutcheck/run.sh",
+      "npm_script": "tool:gutcheck"
+    },
+    {
+      "tool": "CodeQL",
+      "folder": "tools/CodeQL",
+      "run": "bash tools/CodeQL/run.sh",
+      "npm_script": "tool:CodeQL"
+    },
+    {
+      "tool": "knip",
+      "folder": "tools/knip",
+      "run": "bash tools/knip/run.sh",
+      "npm_script": "tool:knip"
+    },
+    {
+      "tool": "Opengrep",
+      "folder": "tools/Opengrep_excel",
+      "run": "bash tools/Opengrep_excel/run.sh",
+      "npm_script": "tool:Opengrep"
+    },
+    {
+      "tool": "Git-Spark",
+      "folder": "tools/Git-Spark",
+      "run": "bash tools/Git-Spark/run.sh",
+      "npm_script": "tool:Git-Spark"
+    }
+  ]
+}

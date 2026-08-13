@@ -1,0 +1,13 @@
+{
+  "tool": "CodeQL",
+  "branch": "Version_18",
+  "customer_version": "18",
+  "syntax": "ES2022 / Node.js 18",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}

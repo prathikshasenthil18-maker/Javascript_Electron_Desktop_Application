@@ -1,0 +1,13 @@
+{
+  "tool": "trivy",
+  "files": [
+    "README.md",
+    "trigger.yaml",
+    "run.sh",
+    "project-link.json",
+    "version-data.json",
+    "FILE_MANIFEST.json",
+    "run-node.js"
+  ],
+  "links_to_project": true
+}
