@@ -1,0 +1,13 @@
+{
+  "tool": "Dolos",
+  "branch": "Version_21",
+  "customer_version": "21",
+  "syntax": "ES2023+ / Node.js 21",
+  "excel_source": "Alternative_Tools_Enterprise_Mapping_Matrix.xlsx",
+  "excel_documented_for": [
+    "18",
+    "20",
+    "22",
+    "24"
+  ]
+}

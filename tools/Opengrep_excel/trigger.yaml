@@ -1,0 +1,9 @@
+tool: Opengrep
+language: javascript
+scenario: "1 - Monolithic"
+branch: "Version_21"
+customer_version: "21"
+project_link: true
+run:
+  command: "bash tools/Opengrep_excel/run.sh"
+  cwd: "repository_root"
